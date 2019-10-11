@@ -1,0 +1,82 @@
+body{
+	text-align:center;
+	align-content: center;
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*header*/
+h1{
+	text-transform: uppercase;
+	color:#ffffff;
+	font-family: cursive;
+	font-size: 3.5em;
+}
+
+/* Box */
+.box{
+	margin: 0 auto;
+	height: 70vh;
+	width: 60vh;
+	background-color: #01eaf8;
+	overflow: hidden;
+	
+	box-shadow: 4px 6px 3px 4px #949996;
+}
+
+/* outer display 363F3E*/
+.displayArea{
+		width:55vh;
+		height: 17vh;
+		margin: 0 auto;
+}
+
+/* textarea or Output Display */
+.textview{
+		width:50vh;
+		height: 13vh;
+		margin-top: 15px;
+		border-radius: 5px;
+		border:none;
+		text-align: right;
+		padding-right: 10px;
+		font-size: 40px;
+}
+
+/*For Input type number spinner */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* table */
+.inner {
+	display: grid;
+	justify-content: center;
+	margin: 4px;
+	padding: 3px;
+	border-spacing: 5px;
+}
+
+/*button*/
+.button{
+	height: 5em;
+	width: 7em;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+/*Number Key */
+.num{
+	font-weight: bold;
+	
+}
+
+/*Funtion Key*/
+.funkey{
+	font-weight: bolder;
+	background-color: grey;
+	box-shadow: none;
+
+}
